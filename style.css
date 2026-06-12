@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ole&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ole", cursive;
+    font-weight: 400;
+    font-style: normal;;
+}
+
 .box1 {
     background-color: #BBB;
     border: 2px solid black;
@@ -17,4 +28,11 @@ span {
 p {
     background-color: #006666;
     color: #FFF;
+} 
+
+button {
+    background-color: #EEE;
+    color: #082;
+    border: 2px solid #067;
+    border-radius: 5px;
 }
