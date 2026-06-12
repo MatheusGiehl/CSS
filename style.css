@@ -1,0 +1,20 @@
+.box1 {
+    background-color: #BBB;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: #FF0;
+}
+
+span {
+    background-color: #000066;
+    color: #FFF;
+}
+
+p {
+    background-color: #006666;
+    color: #FFF;
+}
