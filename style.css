@@ -15,7 +15,7 @@ body {
     background-color: var(--fundo);
     color: var(--fonte);
 }
-
+    
 .box1 {
     background-color: #BBB;
     border: 2px solid black;

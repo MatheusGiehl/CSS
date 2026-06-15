@@ -1,0 +1,32 @@
+body { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #CCC;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+nav .logo {
+    background-color: #999;
+}
+
+nav ul {
+    background-color: #555;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    display: flex;
+}
+
+nav .buttons {
+    background-color: #333;
+}
