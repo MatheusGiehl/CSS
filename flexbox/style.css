@@ -16,17 +16,37 @@ nav {
 
 nav .logo {
     background-color: #999;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav ul {
-    background-color: #555;
     margin: 0;
     list-style: none;
     padding: 0;
     gap: 20px;
     display: flex;
+    
 }
 
 nav .buttons {
-    background-color: #333;
+    display: none
+}
+
+nav .buttons button {
+    margin-top: 3px;
+    background-color: #BBB;
+    color: #000;
+    border: none;
+}
+
+@media (width > 500px) {
+    nav .buttons {
+    display: flex;
+    flex-direction: column;
+}
 }
